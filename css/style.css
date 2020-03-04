@@ -3,29 +3,61 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
 /* SECTION NAVBAR */
-.logo {
-   /* DEBUG:  */
-   background-color: yellow;
-   height: 100px;
-   width: 100%;
-   /* DEBUG:  */
+.navbar {
+  margin-bottom: 0;
 }
 
-.menu-bar {
-  /* DEBUG:  */
-  background-color: green;
-  height: 100px;
-  width: 100%;
-  /* DEBUG:  */
+.logo img {
+  width: 200px;
+  height: auto;
+  margin: 15px 25px;
+}
+
+.main-navbar {
+  margin: 25px 0;
+}
+
+.main-navbar ul {
+  list-style: none;
+  margin: 0;
+}
+
+.main-navbar li, a {
+  text-decoration: none;
+  display: inline-block;
+  color: #0c2454;
+  font-size: 1.1em;
+  margin: 0 8px;
+  font-weight: 400;
+}
+
+.main-navbar a:hover {
+  color: #005fe6;
+  text-decoration: none;
 }
 
 .signup {
-  /* DEBUG:  */
-  background-color: yellow;
-  height: 100px;
-  width: 100%;
-  /* DEBUG:  */
+  margin-top: 15px;
+  margin-left: 92px;
+}
+
+.signup a {
+  text-align: right;
+  padding: 10px 15px;
+  border: 2px solid #005fe6;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.signup a:hover {
+  background-color: #005fe6;
+  color: #FFF;
+  transition: .30s;
 }
 
 /* SECTION JUMBOTRON */
