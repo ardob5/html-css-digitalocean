@@ -84,6 +84,7 @@ body {
 .jumbotron {
   margin-top: 74px;
   background-image: url("https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg");
+  margin-bottom: 0;
 }
 
 .title h1 {
@@ -182,4 +183,108 @@ body {
   text-decoration: underline;
   color: #5999ff;
   font-weight: bold;
+}
+
+/* SEZIONE PARTNERS */
+
+.partners {
+  background-color: #f2f1f0;
+}
+
+.partners h5 {
+  text-align: center;
+  font-weight: bold;
+  color: #a3a2a0;
+  font-size: 0.8em;
+}
+
+.innovate {
+  margin: 30px 0;
+}
+
+.partners-img {
+  text-align: center;
+}
+
+.partners-img img {
+  height: auto;
+  width: 15%;
+  margin: 0 20px;
+}
+
+#gitlab-img {
+  margin: 0;
+}
+
+#splunk-img {
+  height: 40px;
+  width: auto;
+}
+
+#slack-img {
+  height: 40px;
+  width: auto;
+}
+
+.stories {
+  margin: 30px 0;
+  text-align: center;
+}
+
+.stories a {
+  color: #005fe6;
+}
+
+/* SEZIONE RANDOM */
+
+.random-section {
+  background-color: #FFF;
+}
+
+.subtitle {
+  text-align: center;
+  margin: 50px 0;
+}
+
+.subtitle h3 {
+  margin-bottom: 30px;
+  font-size: 2.3em;
+  font-weight: bold;
+}
+
+.subtitle p {
+  color: rgba(3,27,78,.7);
+  font-size: 1.2em;
+  letter-spacing: 1px;
+}
+
+.random-section-list {
+  margin: 0 25%;
+}
+
+.random-section-list ul {
+  list-style: none;
+  border-left: 2px solid lightgrey;
+}
+
+.random-section-list li {
+  padding: 15px 15px;
+}
+
+.random-section-list a {
+  color: lightgrey;
+}
+
+.random-section-list a:hover {
+  color: rgba(3,27,78,.7);
+  text-decoration: none;
+}
+
+.random-tab-item {
+  display: inline-block;
+  width: 35%;
+}
+
+.random-tab-item h3 {
+  margin: 0;
 }
